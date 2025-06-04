@@ -40,3 +40,14 @@ body{
     "footer footer" 50px /
     200px auto;
 }
+@media (max-width: 768px) {
+  .contenedor {
+    grid-template:
+      "header" 80px
+      "navbar" 50px
+      "main" auto
+      "sidebar" auto
+      "footer" 50px /
+      auto;
+  }
+}
